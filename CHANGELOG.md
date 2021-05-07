@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.4] - 2021-05-07
+### Changed
+- Add params to dithering sh
+- Reorganise repo (Add src dir)
+
 ## [0.1.3] - 2021-03-08
 ### Changed
 - Add help to dithering sh
