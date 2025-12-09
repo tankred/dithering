@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [Released]
+
+## [0.2.0] - 2025-12-09
+### Changed
+- Bump version and merge develop
+
 ## [0.1.5] - 2022-01-30
 ### Changed
 - Ignore clip.sh
@@ -26,8 +32,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [0.1.1] - 2020-04-12
 ### Added
 - This CHANGELOG file 
-
-## [Released]
 
 ## [0.1.0] - 2020-04-12
 ### Added
