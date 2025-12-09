@@ -6,6 +6,7 @@ usage() {
   cat <<EOF
 Usage: ./$(basename "$0") [-h] [-V] 
 dithering images
+Generated dithered image in same dir with .dit. suffix
 colortable is hardcoded in script; 
 
 Options:
@@ -13,21 +14,21 @@ Options:
 -h, --help      Print this help and exit
 -V, --version   Print version
 -f, --file      File to dither required
+
+Sample:
+./$(basename "$0") -f <file>
 EOF
   exit
 }
 
 version() {
   cat <<EOF
-v0.2.0
+v0.2.2
 EOF
   exit 0
 }
 
 main() {
-  echo "-------------------------------"
-  echo "       bash kitchen "
-  echo "-------------------------------"
   # ~ is not converted when not specifying bin bash
   DSRC=$file
   echo $DSRC
@@ -41,7 +42,7 @@ main() {
   #  echo "e: $extension"
   TSRC=$dirname"/"$(basename -- "$file" .$extension).dit.$extension
   echo $TSRC
-  convert $DSRC -dither FloydSteinberg -remap colortable/colortable-green-8c.gif $TSRC
+  magick $DSRC -dither FloydSteinberg -remap colortable/colortable-green-8c.gif $TSRC
 }
 
 msg() {
@@ -75,5 +76,4 @@ parse_params() {
 parse_params "$@"
 
 main
-
 
