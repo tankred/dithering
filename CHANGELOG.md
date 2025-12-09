@@ -1,0 +1,40 @@
+# Changelog
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [Unreleased]
+
+## [Released]
+
+## [0.2.0] - 2025-12-09
+### Changed
+- Bump version and merge develop
+
+## [0.1.5] - 2022-01-30
+### Changed
+- Ignore clip.sh
+
+## [0.1.4] - 2021-05-07
+### Changed
+- Add params to dithering sh
+- Reorganise repo (Add src dir)
+
+## [0.1.3] - 2021-03-08
+### Changed
+- Add help to dithering sh
+
+## [0.1.2] - 2021-01-26
+### Changed
+- Add sample cmd to readme
+
+## [0.1.1] - 2020-04-12
+### Added
+- This CHANGELOG file 
+
+## [0.1.0] - 2020-04-12
+### Added
+- A readme
+- dithering colourtables
+
