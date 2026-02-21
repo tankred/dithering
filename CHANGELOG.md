@@ -8,6 +8,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Released]
 
+## [0.2.3] - 2026-02-21
+### Changed
+- Dither J. Weenix
+
 ## [0.2.2] - 2025-12-09
 ### Changed
 - Add help to ditering sh

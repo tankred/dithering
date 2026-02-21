@@ -1,9 +1,15 @@
-# dithering
+# Dithering
+
 Colortables for dithering images
 
-## samples
+## Samples
 
+```
 convert IMG_1868.JPG -dither FloydSteinberg -remap colortable-green-8c.gif  img-1868-64c8.JPG
+magick img-src/Jan-Weenix-2026.jpg -dither FloydSteinberg -remap src/colortable/colortable-green-8c.gif  export/Jan-Weenix-2026-dithered.jpg
+magick img-src/Jan-Weenix-2026.jpg -dither FloydSteinberg -remap src/colortable/colortable-red.gif  export/Jan-Weenix-2026-dithe-red.jpg
+
+```
 
 ## slog
 
